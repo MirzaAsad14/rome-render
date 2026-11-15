@@ -4,8 +4,13 @@ on:
     inputs:
       slug: {default: 'rise_of_rome'}
       n: {default: '16'}
+      prep_run: {description: 'reuse the atlas artifact of this earlier run id (skip prep)', default: ''}
+permissions:
+  contents: read
+  actions: read
 jobs:
   prep:
+    if: ${{ inputs.prep_run == '' }}
     runs-on: ubuntu-24.04
     timeout-minutes: 120
     steps:
@@ -31,6 +36,7 @@ jobs:
           if-no-files-found: error
   part:
     needs: prep
+    if: ${{ !failure() && !cancelled() }}
     runs-on: ubuntu-24.04
     timeout-minutes: 340
     strategy:
@@ -46,11 +52,13 @@ jobs:
         with:
           name: build
           path: history-map-studio/pipeline/build/${{ inputs.slug }}
+          run-id: ${{ inputs.prep_run || github.run_id }}
+          github-token: ${{ github.token }}
       - name: render part
         working-directory: history-map-studio
         env: {ATLAS_LRU: '6'}
         run: |
-          ls build 2>/dev/null; ls pipeline/build/${{ inputs.slug }} | wc -l
+          ls pipeline/build/${{ inputs.slug }} | wc -l
           python3 produce.py part ${{ inputs.slug }} ${{ matrix.i }}/${{ inputs.n }} 2>&1 | tee /tmp/part.log | grep -vE "^worker [0-9]+: frame [0-9]*[1-9][0-9]{3}/" || true
           if grep -q "atlas: paper" /tmp/part.log; then echo "::error::part rebuilt an atlas (prep artifact mismatch)"; exit 1; fi
           grep -q "video ok" /tmp/part.log

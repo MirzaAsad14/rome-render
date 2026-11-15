@@ -1,0 +1,34 @@
+name: upscale
+on:
+  workflow_dispatch:
+    inputs:
+      parts_run: {description: 'run id holding part_0..part_15 artifacts', required: true}
+permissions:
+  contents: read
+  actions: read
+jobs:
+  up:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix: {i: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]}
+    steps:
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+      - uses: actions/download-artifact@v4
+        with:
+          name: part_${{ matrix.i }}
+          path: in
+          run-id: ${{ inputs.parts_run }}
+          github-token: ${{ github.token }}
+      - name: 1440p upload copy (video only; audio is muxed once locally)
+        run: |
+          ffmpeg -v error -y -i in/part_${{ matrix.i }}.mp4 -an -vf "scale=2560:1440:flags=lanczos,unsharp=5:5:0.6" -c:v libx264 -preset medium -crf 28 -pix_fmt yuv420p -r 24 up_${{ matrix.i }}.mp4
+          ffprobe -v error -show_entries stream=codec_name,width,height,nb_frames -of compact up_${{ matrix.i }}.mp4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: up_${{ matrix.i }}
+          path: up_${{ matrix.i }}.mp4
+          compression-level: 0
+          retention-days: 3
+          if-no-files-found: error

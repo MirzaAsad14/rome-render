@@ -2,6 +2,7 @@ name: upscale
 on:
   workflow_dispatch:
     inputs:
+      parts: {description: 'JSON list of part indices', default: '[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]'}
       parts_run: {description: 'run id holding part_0..part_15 artifacts', required: true}
 permissions:
   contents: read
@@ -12,7 +13,8 @@ jobs:
     timeout-minutes: 120
     strategy:
       fail-fast: false
-      matrix: {i: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]}
+      matrix:
+        i: ${{ fromJSON(inputs.parts) }}
     steps:
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
       - uses: actions/download-artifact@v4

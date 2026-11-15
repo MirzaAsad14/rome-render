@@ -334,7 +334,7 @@ ARROWS = [
     A('who fled to Egypt', 'stepped ashore>', 'Caesar made himself dictator', ['Pharsalus', (23.5, 38.6), (27.0, 36.0), (31.0, 32.0), 'Pelusium'], 'pompeian', 'Pompey'),
     A("Octavian joined Caesar's", 'at Philippi in Macedonia>', 'they crushed the assassins +1', ['Brundisium', 'Dyrrhachium', 'Thessalonica', 'Philippi'], 'roman', 'Mark Antony'),
     A('and in forty two BC', 'at Philippi in Macedonia>', 'they crushed the assassins +1', ['Sardis', (27.0, 40.0), (26.0, 40.9), 'Philippi'], 'pompeian', 'Brutus'),
-    A("Octavian's admiral Agrippa", 'trapped the fleet', 'The queen broke out +2', [(21.25, 37.3), (20.45, 37.7), (20.05, 38.1), (20.15, 38.45)], 'roman', 'Agrippa'),
+    A("Octavian's admiral Agrippa", 'trapped the fleet', 'The queen broke out -0.7', [(21.25, 37.3), (20.45, 37.7), (20.05, 38.1), (20.15, 38.45)], 'roman', 'Agrippa'),
     A('The queen broke out', 'her squadron and fled>', 'Within a year', ['Actium', (21.5, 37.0), (25.0, 34.6), (29.0, 31.8), 'Alexandria'], 'ptolemaic', 'Cleopatra VII'),
     A('and Antony followed her', 'and Antony followed her> +2', 'Within a year +1', ['Actium', (21.8, 36.8), (25.5, 34.3), (29.3, 31.7), 'Alexandria'], 'antony', 'Mark Antony'),
     A('Octavian entered Alexandria -1', 'Octavian entered Alexandria>', 'Egypt, the richest land', [(34.0, 32.5), 'Pelusium', 'Alexandria'], 'roman', 'Octavian'),

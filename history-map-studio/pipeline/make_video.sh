@@ -15,7 +15,7 @@ ffmpeg -y -v error -i $BD/video.mp4 -i $BD/narration.wav -i $BD/music.wav -i $BD
  "[1:a]aresample=48000:resampler=soxr,highpass=f=80,equalizer=f=250:t=q:w=1:g=-2.5,equalizer=f=3800:t=q:w=1.4:g=2.5,equalizer=f=9000:t=h:w=0.7:g=1.5,deesser=i=0.35,acompressor=threshold=-22dB:ratio=2.5:attack=12:release=220:knee=6,loudnorm=I=-14:TP=-2:LRA=6,asplit=2[vo][sc];\
   [2:a]loudnorm=I=-34:TP=-9:LRA=11,aecho=0.8:0.5:60:0.10[m];\
   [3:a]volume=-7dB,equalizer=f=2500:t=q:w=1.2:g=-6,equalizer=f=1000:t=q:w=1:g=-3[fx0];[fx0][sc]sidechaincompress=threshold=0.02:ratio=10:attack=8:release=350:makeup=1[fx];\
-  [vo][fx][m]amix=inputs=3:normalize=0:duration=first,alimiter=limit=0.89:level=false[a]" \
+  [vo][fx][m]amix=inputs=3:normalize=0:duration=first,alimiter=limit=0.89:level=false,aresample=48000:resampler=soxr[a]" \
  -map 0:v -map "[a]" -c:v copy -c:a aac -b:a 192k -shortest -movflags +faststart $TMP/${EP}_master.mp4
 cp $TMP/${EP}_master.mp4 out/${EP}_master.mp4
 ffmpeg -y -v error -i $TMP/${EP}_master.mp4 -c:v libx264 -preset medium -crf 22 -c:a copy -movflags +faststart $TMP/${EP}_1080p.mp4

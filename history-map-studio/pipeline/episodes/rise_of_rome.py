@@ -101,11 +101,11 @@ def wipe(n, place, w):
 # hook
 cam(0, 'Rome', 10); cam('On a hill above', 'Palatine', 7.5); cam('Their neighbours are older', (12.9, 42.0), 13)
 cam('Nine hundred years later', (14.5, 41.6), 19); cam('the descendants of those +1.2', (17, 41.5), 34); cam('one in five of all', (18, 41.0), 56)
-cam('The Greek historian Polybius', (16, 41.0), 44); cam('in less than fifty three years', (17, 41.2), 40); cam('Fifty three years was only', (13, 42.0), 22); cam('This is the story of how', 'Rome', 10)
+cam('The Greek historian Polybius', (16, 41.0), 44); cam('in less than fifty three years', (17, 41.2), 40); cam('Fifty three years was only -0.4', (13, 42.0), 22); cam('This is the story of how', 'Rome', 10)
 # chapter one
 wipe(1, 'Rome', 9); cam('Twin boys', 'Palatine', 7.5); cam('Grown to manhood', 'Palatine', 7); cam('Livy, writing under Augustus', (12.6, 41.9), 9); cam('more fit for poets', (12.55, 41.92), 8.2); cam('The traditional date', 'Rome', 8.8)
 cam('Archaeology tells a quieter story', 'Palatine', 7); cam('Rome grew where a river crossing', 'Rome', 11); cam('Etruscan cities to the north', (11.9, 42.8), 11)
-cam('Latins and Greeks to the south', (14.3, 41.0), 15); cam('In the Forum, beneath', 'Rome', 8); cam('Tradition gives Rome seven kings', (12.4, 42.1), 10); cam('The last three were Etruscans', (12.2, 42.4), 11); cam('From the Etruscans, too', (12.0, 42.7), 12); cam('carried before every Roman', 'Rome', 9)
+cam('Latins and Greeks to the south', (14.3, 41.0), 15); cam('In the Forum, beneath +0.65', 'Rome', 8); cam('Tradition gives Rome seven kings', (12.4, 42.1), 10); cam('The last three were Etruscans', (12.2, 42.4), 11); cam('From the Etruscans, too', (12.0, 42.7), 12); cam('carried before every Roman', 'Rome', 9)
 cam('The last of all, Tarquin', 'Rome', 9); cam('they drove the king out', (12.2, 42.4), 10); cam('Power passed to two consuls', 'Rome', 9); cam('a council of elders', (12.5, 41.92), 8.2)
 cam('the Senate and the People of Rome', 'Rome', 7.5)
 # chapter two
@@ -113,12 +113,12 @@ wipe(2, (12.5, 42.15), 10); cam('Its greatest rival was Veii', (12.45, 42.0), 8)
 cam('Then catastrophe came from the north', (11.2, 44.0), 18); cam('destroyed a Roman army at', (12.5, 42.1), 9.5); cam('Livy tells how the sacred', 'Rome', 8); cam('When the Romans paid a ransom', 'Rome', 9); cam('Rome never forgot it', 'Rome', 10)
 cam('turned south', (13.6, 41.5), 13); cam('In three long wars against the Samnites', (14.4, 41.6), 11); cam('won victory at Sentinum', (13.2, 42.6), 11)
 cam('Its secret weapon was not', (13.4, 42.0), 15); cam('the Greek city of Tarentum', (17.5, 40.3), 14); cam('Pyrrhus beat the Romans', (16.2, 40.8), 10)
-cam('Beaten at Beneventum', (15.6, 40.9), 11); cam('he sailed home', (18.2, 40.0), 13); cam('By two hundred and sixty four BC, Rome', (13.8, 41.3), 19)
+cam('Beaten at Beneventum', (15.6, 40.9), 11); cam('he sailed home -0.4', (18.2, 40.0), 13); cam('By two hundred and sixty four BC, Rome +1.1', (13.8, 41.3), 19)
 # chapter three
 wipe(3, (14.0, 38.4), 13); cam('Across a strait just', 'Messana', 8); cam('beyond it Carthage', (11.6, 37.4), 13)
 cam('the richest power in the western', (5.0, 38.5), 30); cam('both powers were drawn', 'Messana', 9); cam('Rome had almost no warships', (13.0, 40.5), 14)
 cam('built a fleet of one hundred', (13.5, 40.0), 16); cam('They added a weapon', (14.5, 39.3), 14); cam('off Mylae on the north coast', 'Mylae', 8); cam('An inscription from his victory', (14.2, 38.3), 11); cam('a Roman army even landed', (11.4, 37.0), 11)
-cam('The war ground on through storms', (12.8, 37.6), 13); cam('off the Aegates Islands', 'Aegates', 8.5); cam('Carthage gave up Sicily', (12.5, 39.0), 15)
+cam('The war ground on through storms', (12.8, 37.6), 13); cam('off the Aegates Islands', 'Aegates', 8.5); cam('Carthage gave up Sicily +0.35', (12.5, 39.0), 15)
 cam('In time the Romans would call', (12.0, 39.0), 30)
 # chapter four
 wipe(4, (-2.0, 38.6), 16); cam('That son was Hannibal', 'New Carthage', 11); cam('after he took the Roman ally', 'Saguntum', 9)
@@ -130,10 +130,10 @@ cut('Hannibal\'s brother Hasdrubal crossed', (8.0, 44.0), 20); cam('destroyed at
 cut('A young general, Publius', (0.0, 39.5), 14); cam('in two hundred and four BC landed', (11.5, 37.6), 13); cam('Hannibal was recalled', (13.5, 37.8), 18)
 cam('At Zama, in two hundred', 'Zama', 8.5); cam('Carthage surrendered its fleet', (10.0, 36.6), 12); cam('Scipio came home', (11.5, 39.0), 22)
 # chapter five
-wipe(5, (21.5, 39.5), 26); cam('Rome turned east', (25.0, 38.0), 30); cam('to the kingdoms carved', (30.0, 36.8), 36); cam('at Cynoscephalae', 'Cynoscephalae', 9); cam('at Magnesia in Asia Minor', (26.5, 39.0), 11)
+wipe(5, (21.5, 39.5), 26); cam('Rome turned east', (25.0, 38.0), 30); cam('to the kingdoms carved', (30.0, 36.8), 36); cam('at Cynoscephalae +0.55', 'Cynoscephalae', 9); cam('at Magnesia in Asia Minor', (26.5, 39.0), 11)
 cam('And at Pydna', 'Pydna', 9); cam('Polybius, the Greek hostage', (22.0, 40.0), 12); cut('Then Rome finished its old enemy', 'Rome', 10)
 cam('In one hundred and forty nine BC Rome', (11.0, 38.5), 13); cam('After a three year siege', 'Carthage', 8.5); cam('saw him weep', (10.35, 36.88), 8); cam('The famous story that the Romans', (10.4, 36.9), 9)
-cut('Roman troops sacked Corinth', 'Corinth', 9); cam('Africa and Macedonia became', (16.0, 39.0), 16); cut('Polybius had his answer', (16.0, 39.0), 40); cam('Rome had become the master', (15.0, 39.5), 46); cam('From Spain to Asia Minor', (14.0, 39.0), 50)
+cut('Roman troops sacked Corinth', 'Corinth', 9); cam('Africa and Macedonia became +0.2', (16.0, 39.0), 16); cut('Polybius had his answer', (16.0, 39.0), 40); cam('Rome had become the master', (15.0, 39.5), 46); cam('From Spain to Asia Minor', (14.0, 39.0), 50)
 # chapter six
 wipe(6, (12.8, 42.0), 12); cam('Conquest brought slaves', (13.0, 41.6), 11); cam('the rich bought up the land', (13.4, 41.3), 10); cam('the tribune Tiberius Gracchus', 'Rome', 8); cam('It was the first time since', 'Rome', 7.5); cam('Twelve years later', 'Rome', 9)
 cam('Then came the generals', (10.0, 43.5), 18); cam('opened the legions to the landless', (11.0, 43.3), 15); cam('who now looked to their commander', (10.0, 44.0), 17); cam('Marius was consul seven', (8.5, 44.5), 17); cam('he destroyed the migrating Cimbri', (6.5, 45.0), 16); cam("Then Rome's Italian allies", (13.8, 42.0), 12)
@@ -148,15 +148,15 @@ cam('Suetonius gives his words', (12.6, 43.3), 10); cut('At Pharsalus in Greece'
 cut('Caesar made himself dictator', 'Rome', 9); cam('On the Ides of March', 'Rome', 7.5)
 # chapter eight
 wipe(8, 'Rome', 10); cam("Octavian joined Caesar's", (19.0, 40.8), 18); cam('at Philippi in Macedonia', 'Philippi', 9)
-cut('Before that, the new allies', 'Rome', 9); cut('The victors divided the Roman world', (18.0, 38.5), 42); cam('Octavian took Italy and the west', (14.0, 41.0), 39); cam('the war of words', (16.5, 40.2), 26); cam('off the headland of Actium', 'Actium', 8.5)
+cut('Before that, the new allies', 'Rome', 9); cut('The victors divided the Roman world', (18.0, 38.5), 42); cam('Octavian took Italy and the west', (14.0, 41.0), 39); cam('the war of words -0.3', (16.5, 40.2), 26); cam('off the headland of Actium +0.35', 'Actium', 8.5)
 cam('The queen broke out -1.4', (20.9, 38.45), 9); cam('her squadron and fled +0.8', (24.0, 35.0), 18); cam('Octavian entered Alexandria', 'Alexandria', 9); cam('Egypt, the richest land', (29.0, 30.5), 16)
 cut('In January twenty seven BC', (14.0, 41.5), 24); cam('After that time, he wrote', (13.0, 42.0), 20); cam('In truth, the Republic was over', (16.0, 40.0), 50)
 # chapter nine
-wipe(9, (13.0, 43.5), 26); cam('He cut the armies of the civil', (12.5, 44.0), 28); cam('stationed them on the frontiers', (14.0, 45.0), 32); cam('Suetonius says he found Rome', 'Rome', 9); cam('The doors of the temple of Janus', 'Rome', 8); cam('Augustus boasted that', 'Rome', 9.5); cam('The conquests went on', (12.0, 45.5), 26)
+wipe(9, (13.0, 43.5), 26); cam('He cut the armies of the civil', (12.5, 44.0), 28); cam('stationed them on the frontiers -0.35', (14.0, 45.0), 32); cam('Suetonius says he found Rome', 'Rome', 9); cam('The doors of the temple of Janus', 'Rome', 8); cam('Augustus boasted that -0.45', 'Rome', 9.5); cam('The conquests went on', (12.0, 45.5), 26)
 cam('in the Teutoburg Forest', (8.4, 52.0), 10); cam('The Rhine became the frontier', (8.0, 49.0), 18); cut('Claudius invaded Britain', (-1.0, 52.0), 13)
 cut('Under the Flavian emperors', 'Rome', 10); cam('Then, in AD ninety eight', (16.0, 44.0), 24); cam('In two hard wars he crossed', (23.0, 45.3), 11)
 cam('The war is carved in a spiral', (23.0, 45.6), 13); cam('In AD one hundred and fourteen -1.2', (24.0, 45.6), 14); cut('he turned on Parthia', (40.5, 37.0), 18); cam('captured the Parthian capital', 'Ctesiphon', 9)
-cam('sailed down the Tigris', (47.0, 31.2), 10); cam('he watched a ship leaving', (49.0, 29.6), 9); cam('In that moment the Roman Empire', (18.0, 41.0), 56); cam('But revolts were already', (38.0, 36.0), 24)
+cam('sailed down the Tigris', (47.0, 31.2), 10); cam('he watched a ship leaving -0.6', (49.0, 29.6), 9); cam('In that moment the Roman Empire +1.1', (18.0, 41.0), 56); cam('But revolts were already', (38.0, 36.0), 24)
 cam('among the Jewish communities', (34.0, 32.0), 20); cam('His successor, Hadrian', (30.0, 38.0), 36); cut('The historian Tacitus', (-2.5, 55.0), 13); cam('put into the mouth of a British', (-3.4, 56.3), 11); cam('The village on the Tiber', (18.0, 41.0), 56)
 cam('It would never be larger', (14.0, 41.5), 40); cam('How it held on', (17.0, 41.5), 54)
 
@@ -430,8 +430,8 @@ PEOPLE = [
     dict(at='led by Quintus Fabius', until="Hannibal's brother Hasdrubal -2.0", name='Fabius Maximus', title='"Cunctator", the Delayer', kind='roman', place='Rome'),
     dict(at="Hannibal's brother Hasdrubal", until='Livy says his head -0.3', name='Hasdrubal', title="Hannibal's brother", kind='carthage'),
     dict(at='Publius Cornelius Scipio', until='Hannibal was recalled -0.3', name='Scipio', title='Scipio Africanus, 236-183 BC', kind='roman', image=I('scipio.jpg'), crop=(0.22, 0.20, 0.78, 0.47)),
-    dict(at='a new name: Africanus', until='Chapter five -0.3', name='Scipio Africanus', title='Victor of Zama', kind='roman', image=I('scipio.jpg'), crop=(0.22, 0.20, 0.78, 0.47)),
-    dict(at='King Philip the Fifth', until='In one hundred and ninety, at Magnesia -0.2', name='Philip V', title='King of Macedon, 221-179 BC', kind='macedon', place='Pella', image=I('philip5.jpg'), crop=(0.20, 0.08, 0.86, 0.92)),
+    dict(at='a new name: Africanus +0.3', until='Chapter five -0.3', name='Scipio Africanus', title='Victor of Zama', kind='roman', image=I('scipio.jpg'), crop=(0.22, 0.20, 0.78, 0.47)),
+    dict(at='King Philip the Fifth', until='In one hundred and ninety, at Magnesia +1.0', name='Philip V', title='King of Macedon, 221-179 BC', kind='macedon', place='Pella', image=I('philip5.jpg'), crop=(0.20, 0.08, 0.86, 0.92)),
     dict(at='the Seleucid king', until='And at Pydna -0.2', name='Antiochus III', title='Seleucid king, "the Great"', kind='seleucid', place='Magnesia', image=I('antiochus.jpg'), crop=(0.14, 0.06, 0.82, 0.52)),
     dict(at='the consul Aemilius Paullus', until='Perseus -0.2', name='Aemilius Paullus', title='Consul, victor of Pydna', kind='roman', place='Pydna'),
     dict(at='Perseus', until='and explained it to his -0.2', name='Perseus', title='Last king of Macedon', kind='macedon', place='Pella', image=I('perseus.jpg'), crop=(0.0, 0.0, 0.48, 1.0)),
@@ -448,15 +448,15 @@ PEOPLE = [
     dict(at='Appian says six', until='The Republic survived Sulla -0.2', name='Appian', title='Greek historian, 2nd c. AD', kind='greek'),
     dict(at='Gnaeus Pompeius, Pompey', until='Then he conquered the east -0.2', name='Pompey', title='Pompey the Great, 106-48 BC', kind='roman', image=I('pompey.jpg'), crop=(0.16, 0.06, 0.84, 0.62)),
     dict(at='the richest man in Rome, Crassus', until='an ambitious aristocrat -0.2', name='Crassus', title='Richest man in Rome', kind='roman', place='Rome', image=I('crassus.jpg'), crop=(0.25, 0.0, 0.75, 0.75)),
-    dict(at='Gaius Julius Caesar', until='As governor of Gaul -2.0', name='Julius Caesar', title='100-44 BC', kind='roman', place='Rome', image=I('caesar.jpg'), crop=(0.18, 0.06, 0.82, 0.42)),
+    dict(at='Gaius Julius Caesar', until='As governor of Gaul +0.6', name='Julius Caesar', title='100-44 BC', kind='roman', place='Rome', image=I('caesar.jpg'), crop=(0.18, 0.06, 0.82, 0.42)),
     dict(at='Plutarch claims that', until='Ancient numbers like these -0.2', name='Plutarch', title='Greek biographer, c. AD 46-120', kind='greek'),
     dict(at='the Arvernian chief Vercingetorix', until='Caesar trapped him -0.3', name='Vercingetorix', title='Arvernian chief (gold stater)', kind='gaul', place='Alesia', image=I('vercingetorix.jpg'), crop=(0.02, 0.02, 0.98, 0.98)),
-    dict(at='Crassus, hungry for glory', until='where Plutarch says -0.2', name='Crassus', title='Triumvir, died 53 BC', kind='roman', place='Carrhae', image=I('crassus.jpg'), crop=(0.25, 0.0, 0.75, 0.75)),
+    dict(at='Crassus, hungry for glory +1.7', until='where Plutarch says -0.2', name='Crassus', title='Triumvir, died 53 BC', kind='roman', place='Carrhae', image=I('crassus.jpg'), crop=(0.25, 0.0, 0.75, 0.75)),
     dict(at='Suetonius gives his words', until='At Pharsalus -0.3', name='Suetonius', title='Roman biographer, c. AD 69-122', kind='roman'),
     dict(at='Caesar made himself dictator', until='On the Ides of March -0.2', name='Julius Caesar', title='Dictator for life', kind='roman', place='Rome', image=I('caesar.jpg'), crop=(0.18, 0.06, 0.82, 0.42)),
     dict(at='On the Ides of March', until='stabbed him to death -0.3', name='Brutus', title='Assassin (denarius, 42 BC)', kind='pompeian', place='Rome', image=I('brutus.jpg'), crop=(0.03, 0.06, 0.49, 0.94)),
     dict(at='Gaius Octavius', until='Octavian joined -0.2', name='Octavian', title='Caesar\'s heir, later Augustus', kind='roman', place='Rome', image=I('augustus.jpg'), crop=(0.49, 0.03, 0.71, 0.18)),
-    dict(at="Caesar's lieutenant Mark Antony", until='and in forty two BC -0.2', name='Mark Antony', title='Caesar\'s lieutenant', kind='roman', image=I('antony.jpg'), crop=(0.22, 0.06, 0.76, 0.56)),
+    dict(at="Caesar's lieutenant Mark Antony", until='at Philippi in Macedonia +0.5', name='Mark Antony', title='Caesar\'s lieutenant', kind='roman', image=I('antony.jpg'), crop=(0.22, 0.06, 0.76, 0.56)),
     dict(at='Brutus and Cassius both', until='Before that, the new -0.2', name='Cassius', title='Assassin of Caesar', kind='pompeian', place='Philippi'),
     dict(at='Appian says some three', until='the orator Cicero -0.2', name='Appian', title='Greek historian, 2nd c. AD', kind='greek'),
     dict(at='the orator Cicero', until='The victors divided -0.3', name='Cicero', title='Orator and consul, 106-43 BC', kind='roman', place='Rome', image=I('cicero.jpg'), crop=(0.08, 0.16, 0.92, 0.72)),
@@ -500,7 +500,7 @@ PLATES = [
     dict(at='Polybius had his answer', until='From Spain to Asia Minor -0.2', image=I('p_vernet.jpg'), caption='Carle Vernet, "The Triumph of Aemilius Paulus" (detail), 1789, Metropolitan Museum. Public domain'),
     dict(at='The famous story that the Romans', until='In the same year, Roman troops +0.6', image=I('p_carthage.jpg'), caption='Ruins of Carthage on the Byrsa hill, Tunisia. CC BY-SA 2.0 Tracey Hind, via Wikimedia Commons'),
     dict(at='and some three thousand', until='Then came the generals +0.4', image=I('p_gracchus.jpg'), caption='Francois Topino-Lebrun, "The Death of Gaius Gracchus", 1792. Public domain, via Wikimedia Commons'),
-    dict(at='Vercingetorix laid down his arms', until='Crassus, hungry for glory -1.9', image=I('p_vercingetorix.jpg'), caption='Lionel Royer, "Vercingetorix throws down his arms at the feet of Julius Caesar", 1899. Public domain'),
+    dict(at='Vercingetorix laid down his arms', until='Crassus, hungry for glory +1.4', image=I('p_vercingetorix.jpg'), caption='Lionel Royer, "Vercingetorix throws down his arms at the feet of Julius Caesar", 1899. Public domain'),
     dict(at='stabbed him to death', until='Suetonius counts twenty three -0.1', image=I('p_death_caesar.jpg'), caption='Jean-Leon Gerome, "The Death of Caesar", 1867, Walters Art Museum. Public domain'),
     dict(at='The queen broke out', until='Within a year +0.3', image=I('p_actium.jpg'), caption='Lorenzo A. Castro, "The Battle of Actium, 2 September 31 BC", 1672, National Maritime Museum. Public domain'),
     dict(at='In his own record, the Res Gestae', until='After that time, he wrote -0.2', image=I('p_resgestae.jpg'), caption='Res Gestae Divi Augusti, Monumentum Ancyranum, Ankara (Perrot & Guillaume, 1862). CC0, via Wikimedia Commons'),

@@ -1,0 +1,13 @@
+{
+ "title": "",
+ "description": "",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-2%",
+ "pitch": "-4Hz",
+ "lead_in": 0.6,
+ "tail": 5.0,
+ "text": "",
+ "say": {},
+ "ipa": {},
+ "sources": []
+}

@@ -1,9 +1,0 @@
-name: probe
-on: [push, workflow_dispatch]
-jobs:
-  probe:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix: {i: [0,1]}
-    steps:
-      - run: nproc; free -g; df -h /; python3 --version; ffmpeg -version | head -1

@@ -1,0 +1,37 @@
+{
+ "battlefield": {
+  "file": "battlefield.jpg",
+  "title": "File:Chaldiran Battlefield Site in 2004.JPG",
+  "license": "Public domain",
+  "artist": "Malikbek",
+  "page": "https://commons.wikimedia.org/wiki/File:Chaldiran_Battlefield_Site_in_2004.JPG"
+ },
+ "janissaries": {
+  "file": "janissaries.jpg",
+  "title": "File:Janissary Recruitment in the Balkans-Suleymanname.jpg",
+  "license": "Public domain",
+  "artist": "Ali Amir Beg (fl. 1558)",
+  "page": "https://commons.wikimedia.org/wiki/File:Janissary_Recruitment_in_the_Balkans-Suleymanname.jpg"
+ },
+ "ismail": {
+  "file": "ismail.jpg",
+  "title": "File:Portrait of Shah Ismail I. Inscribed \"Ismael Sophy Rex Pers\". Painted by Cristofano dell'Altissimo, dated 1552-1568.jpg",
+  "license": "Public domain",
+  "artist": "Cristofano dell'Altissimo",
+  "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Shah_Ismail_I._Inscribed_%22Ismael_Sophy_Rex_Pers%22._Painted_by_Cristofano_dell%27Altissimo,_dated_1552-1568.jpg"
+ },
+ "selim": {
+  "file": "selim.jpg",
+  "title": "File:Selim I by John Young.jpg",
+  "license": "Public domain",
+  "artist": "John Young",
+  "page": "https://commons.wikimedia.org/wiki/File:Selim_I_by_John_Young.jpg"
+ },
+ "battle_mini": {
+  "file": "battle_mini.jpg",
+  "title": "File:Battle of Chaldiran miniature. Sel\u012bm-n\u0101ma, by \u015e\u016bkr\u012b-i Bitlis\u012b, 1524 (National Library of Israel, Ms. Yah. Ar. 1116).jpg",
+  "license": "Public domain",
+  "artist": "1524 artist",
+  "page": "https://commons.wikimedia.org/wiki/File:Battle_of_Chaldiran_miniature._Sel%C4%ABm-n%C4%81ma,_by_%C5%9E%C5%ABkr%C4%AB-i_Bitlis%C4%AB,_1524_(National_Library_of_Israel,_Ms._Yah._Ar._1116).jpg"
+ }
+}

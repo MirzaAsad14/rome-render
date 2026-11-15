@@ -1,0 +1,15 @@
+{"note": "auto mode picks the first topic with status 'todo'; best performers first (competitor data: Russia vs steppe 95K-195K views)",
+ "topics": [
+  {"title": "Kozelsk: The Evil City | Mongols vs Rus' (1238)", "region": "rus_1238", "status": "todo"},
+  {"title": "Battle of Molodi: Russia vs Crimean Khanate (1572)", "region": "new", "status": "todo"},
+  {"title": "Battle of Kalka: First Clash of Rus' and Mongols (1223)", "region": "new", "status": "todo"},
+  {"title": "Siege of Kazan: Ivan the Terrible vs the Khanate (1552)", "region": "new", "status": "todo"},
+  {"title": "The History of Iran: Every Empire, Every Invasion", "region": "iran", "status": "todo"},
+  {"title": "Battle of Kulikovo: Dmitry Donskoy vs Mamai (1380)", "region": "new", "status": "todo"},
+  {"title": "The Umayyad Caliphate: Rise and Fall (661-750)", "region": "caliphate_750", "status": "done"},
+  {"title": "Battle of the Sit River (1238)", "region": "rus_1238", "status": "done"},
+  {"title": "Battle of Ain Jalut: Mamluks vs Mongols (1260)", "region": "new", "status": "todo"},
+  {"title": "Fall of Constantinople (1453)", "region": "new", "status": "todo"},
+  {"title": "Battle of Manzikert: Seljuks vs Byzantium (1071)", "region": "new", "status": "todo"},
+  {"title": "Nader Shah: The Last Great Asian Conqueror", "region": "iran", "status": "todo"}
+ ]}

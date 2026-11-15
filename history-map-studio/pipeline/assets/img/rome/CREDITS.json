@@ -1,0 +1,289 @@
+{
+ "wolf": {
+  "file": "wolf.jpg",
+  "title": "File:Lupa Capitolina, Rome.jpg",
+  "license": "CC0",
+  "artist": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Lupa_Capitolina,_Rome.jpg"
+ },
+ "hannibal": {
+  "file": "hannibal.jpg",
+  "title": "File:Buste de Capoue de Hannibal au Mus\u00e9e National du Bardo 01.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "IssamBarhoumi",
+  "page": "https://commons.wikimedia.org/wiki/File:Buste_de_Capoue_de_Hannibal_au_Mus%C3%A9e_National_du_Bardo_01.jpg"
+ },
+ "pyrrhus": {
+  "file": "pyrrhus.jpg",
+  "title": "File:Pyrrhus MAN Napoli Inv6150 n01.jpg",
+  "license": "CC BY 2.5",
+  "artist": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Pyrrhus_MAN_Napoli_Inv6150_n01.jpg"
+ },
+ "scipio": {
+  "file": "scipio.jpg",
+  "title": "File:Carthago exhibition - Male Bust known as \"Scipio Africanus\" (49340906552).jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Jamie Heath",
+  "page": "https://commons.wikimedia.org/wiki/File:Carthago_exhibition_-_Male_Bust_known_as_%22Scipio_Africanus%22_(49340906552).jpg"
+ },
+ "philip5": {
+  "file": "philip5.jpg",
+  "title": "File:Philip V of Macedon BM.jpg",
+  "license": "Public domain",
+  "artist": "PHGCOM",
+  "page": "https://commons.wikimedia.org/wiki/File:Philip_V_of_Macedon_BM.jpg"
+ },
+ "antiochus": {
+  "file": "antiochus.jpg",
+  "title": "File:Antiochos III.jpg",
+  "license": "Public domain",
+  "artist": "Auguste Giraudon",
+  "page": "https://commons.wikimedia.org/wiki/File:Antiochos_III.jpg"
+ },
+ "perseus": {
+  "file": "perseus.jpg",
+  "title": "File:Perseus of Macedon.jpg",
+  "license": "Public domain",
+  "artist": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Perseus_of_Macedon.jpg"
+ },
+ "polybius": {
+  "file": "polybius.jpg",
+  "title": "File:Polybios.jpg",
+  "license": "Public domain",
+  "artist": "Jona Lendering, Livius Onderwijs",
+  "page": "https://commons.wikimedia.org/wiki/File:Stele_des_Polybios.jpg"
+ },
+ "pompey": {
+  "file": "pompey.jpg",
+  "title": "File:Pompey the Great.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Alphanidon",
+  "page": "https://commons.wikimedia.org/wiki/File:Pompey_the_Great.jpg"
+ },
+ "caesar": {
+  "file": "caesar.jpg",
+  "title": "File:Retrato de Julio C\u00e9sar (26724093101).jpg",
+  "license": "Public domain",
+  "artist": "\u00c1ngel M. Felic\u00edsimo from M\u00e9rida, Espa\u00f1a",
+  "page": "https://commons.wikimedia.org/wiki/File:Retrato_de_Julio_C%C3%A9sar_(26724093101).jpg"
+ },
+ "augustus": {
+  "file": "augustus.jpg",
+  "title": "File:Statue-Augustus.jpg",
+  "license": "Public domain",
+  "artist": "Till Niermann",
+  "page": "https://commons.wikimedia.org/wiki/File:Statue-Augustus.jpg"
+ },
+ "antony": {
+  "file": "antony.jpg",
+  "title": "File:Marcus Antonius marble bust in the Vatican Museums.jpg",
+  "license": "Public domain",
+  "artist": "Ancient Roman artist of the 1st century AD (photo taken by Sergey Sosnovskiy)",
+  "page": "https://commons.wikimedia.org/wiki/File:Marcus_Antonius_marble_bust_in_the_Vatican_Museums.jpg"
+ },
+ "cleopatra": {
+  "file": "cleopatra.jpg",
+  "title": "File:Kleopatra-VII.-Altes-Museum-Berlin1.jpg",
+  "license": "Public domain",
+  "artist": "Louis le Grand",
+  "page": "https://commons.wikimedia.org/wiki/File:Kleopatra-VII.-Altes-Museum-Berlin1.jpg"
+ },
+ "trajan": {
+  "file": "trajan.jpg",
+  "title": "File:Traianus Glyptothek Munich 336.jpg",
+  "license": "Public domain",
+  "artist": "Unknown artistUnknown artist",
+  "page": "https://commons.wikimedia.org/wiki/File:Traianus_Glyptothek_Munich_336.jpg"
+ },
+ "hadrian": {
+  "file": "hadrian.jpg",
+  "title": "File:Bust Hadrian Musei Capitolini MC817.jpg",
+  "license": "Public domain",
+  "artist": "Marie-Lan Nguyen",
+  "page": "https://commons.wikimedia.org/wiki/File:Bust_Hadrian_Musei_Capitolini_MC817.jpg"
+ },
+ "mithridates": {
+  "file": "mithridates.jpg",
+  "title": "File:Mithridates VI Louvre.jpg",
+  "license": "CC BY-SA 2.5",
+  "artist": "Unknown artistUnknown artist",
+  "page": "https://commons.wikimedia.org/wiki/File:Mithridates_VI_Louvre.jpg"
+ },
+ "marius": {
+  "file": "marius.jpg",
+  "title": "File:Marius Glyptothek Munich 319.jpg",
+  "license": "Public domain",
+  "artist": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Marius_Glyptothek_Munich_319.jpg"
+ },
+ "cato": {
+  "file": "cato.jpg",
+  "title": "File:Patrizio Torlonia.jpg",
+  "license": "Public domain",
+  "artist": "Unknown authorUnknown author",
+  "page": "https://commons.wikimedia.org/wiki/File:Patrizio_Torlonia.jpg"
+ },
+ "claudius": {
+  "file": "claudius.jpg",
+  "title": "File:Claudius crop.jpg",
+  "license": "CC BY 2.5",
+  "artist": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Claudius_crop.jpg"
+ },
+ "p_turner_alps": {
+  "file": "p_turner_alps.jpg",
+  "title": "File:Joseph Mallord William Turner 081.jpg",
+  "license": "Public domain",
+  "artist": "J. M. W. Turner",
+  "page": "https://commons.wikimedia.org/wiki/File:Joseph_Mallord_William_Turner_081.jpg"
+ },
+ "p_cannae": {
+  "file": "p_cannae.jpg",
+  "title": "File:The Death of Paulus Aemilius at the Battle of Cannae (Yale University Art Gallery scan).jpg",
+  "license": "Public domain",
+  "artist": "John Trumbull",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Death_of_Paulus_Aemilius_at_the_Battle_of_Cannae_(Yale_University_Art_Gallery_scan).jpg"
+ },
+ "p_vercingetorix": {
+  "file": "p_vercingetorix.jpg",
+  "title": "File:Siege-alesia-vercingetorix-jules-cesar.jpg",
+  "license": "Public domain",
+  "artist": "Lionel Royer",
+  "page": "https://commons.wikimedia.org/wiki/File:Lionel_Royer_-_Vercingetorix_Throwing_down_His_Weapons_at_the_feet_of_Julius_Caesar.jpg"
+ },
+ "p_actium": {
+  "file": "p_actium.jpg",
+  "title": "File:Castro Battle of Actium.jpg",
+  "license": "Public domain",
+  "artist": "Laureys a Castro",
+  "page": "https://commons.wikimedia.org/wiki/File:Castro_Battle_of_Actium.jpg"
+ },
+ "p_colosseum": {
+  "file": "p_colosseum.jpg",
+  "title": "File:Colosseo 2020.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "FeaturedPics",
+  "page": "https://commons.wikimedia.org/wiki/File:Colosseo_2020.jpg"
+ },
+ "agrippa": {
+  "file": "agrippa.jpg",
+  "title": "File:Marcus Agrippa Louvre Ma3554.jpg",
+  "license": "CC BY 2.5",
+  "artist": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Marcus_Agrippa_Louvre_Ma3554.jpg"
+ },
+ "crassus": {
+  "file": "crassus.jpg",
+  "title": "File:Roman Marble Statue Head of Crassus, Louvre (28027339230).jpg",
+  "license": "CC0",
+  "artist": "Gary Todd from Xinzheng, China",
+  "page": "https://commons.wikimedia.org/wiki/File:Roman_Marble_Statue_Head_of_Crassus,_Louvre_(28027339230).jpg"
+ },
+ "sulla": {
+  "file": "sulla.jpg",
+  "title": "File:Bust of Sulla (loan from Ny Carlsberg Glyptotek) - Glyptothek - Munich - Germany 2017.jpg",
+  "license": "Public domain",
+  "artist": "Jos\u00e9 Luiz",
+  "page": "https://commons.wikimedia.org/wiki/File:Bust_of_Sulla_(loan_from_Ny_Carlsberg_Glyptotek)_-_Glyptothek_-_Munich_-_Germany_2017.jpg"
+ },
+ "vercingetorix": {
+  "file": "vercingetorix.jpg",
+  "title": "File:Monnaie - Stat\u00e8re, or, fonds celtique, Arvernes, Type VERCINGETORIX - btv1b112857651 (1 of 2).jpg",
+  "license": "Public domain",
+  "artist": "Autorit\u00e9 \u00e9mettrice de monnaie",
+  "page": "https://commons.wikimedia.org/wiki/File:Monnaie_-_Stat%C3%A8re,_or,_fonds_celtique,_Arvernes,_Type_VERCINGETORIX_-_btv1b112857651_(1_of_2).jpg"
+ },
+ "p_brennus": {
+  "file": "p_brennus.jpg",
+  "title": "File:Le Brenn et sa part de butin (Paul Jamin).jpg",
+  "license": "Public domain",
+  "artist": "Paul Joseph Jamin",
+  "page": "https://commons.wikimedia.org/wiki/File:Le_Brenn_et_sa_part_de_butin_(Paul_Jamin).jpg"
+ },
+ "p_zama": {
+  "file": "p_zama.jpg",
+  "title": "File:The Battle Between Scipio and Hannibal at Zama MET DP874322.jpg",
+  "license": "CC0",
+  "artist": "Cornelis Cort / Giulio Romano",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Battle_Between_Scipio_and_Hannibal_at_Zama_MET_DP874322.jpg"
+ },
+ "p_gracchus": {
+  "file": "p_gracchus.jpg",
+  "title": "File:Topino Lebrun Gracchus.jpg",
+  "license": "Public domain",
+  "artist": "Fran\u00e7ois Topino-Lebrun",
+  "page": "https://commons.wikimedia.org/wiki/File:Topino_Lebrun_Gracchus.jpg"
+ },
+ "p_death_caesar": {
+  "file": "p_death_caesar.jpg",
+  "title": "File:Jean-L\u00e9on G\u00e9r\u00f4me - The Death of Caesar - Walters 37884.jpg",
+  "license": "Public domain",
+  "artist": "Jean-L\u00e9on G\u00e9r\u00f4me",
+  "page": "https://commons.wikimedia.org/wiki/File:Jean-L%C3%A9on_G%C3%A9r%C3%B4me_-_The_Death_of_Caesar_-_Walters_37884.jpg"
+ },
+ "p_varus": {
+  "file": "p_varus.jpg",
+  "title": "File:Otto Albert Koch Varusschlacht 1909.jpg",
+  "license": "Public domain",
+  "artist": "Otto Albert Koch",
+  "page": "https://commons.wikimedia.org/wiki/File:Otto_Albert_Koch_Varusschlacht_1909.jpg"
+ },
+ "p_vernet": {
+  "file": "p_vernet.jpg",
+  "title": "File:The Triumph of Aemilius Paulus (detail).jpg",
+  "license": "Public domain",
+  "artist": "Carle Vernet",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Triumph_of_Aemilius_Paulus_(detail).jpg"
+ },
+ "p_column": {
+  "file": "p_column.jpg",
+  "title": "File:Trajan's Column - NMR - panel 050 A.jpg",
+  "license": "Public domain",
+  "artist": "Joe Mabel",
+  "page": "https://commons.wikimedia.org/wiki/File:Trajan%27s_Column_-_NMR_-_panel_050_A.jpg"
+ },
+ "brutus": {
+  "file": "brutus.jpg",
+  "title": "File:Brutus & L. Plaetorius Cestianus, denarius, 42 BC, RRC 508-3.jpg",
+  "license": "CC BY-SA 2.5",
+  "artist": "CNG",
+  "page": "https://commons.wikimedia.org/wiki/File:Brutus_%26_L._Plaetorius_Cestianus,_denarius,_42_BC,_RRC_508-3.jpg"
+ },
+ "p_resgestae": {
+  "file": "p_resgestae.jpg",
+  "title": "File:Monumentum Ancyranum Res Gestae Divi Augusti Part 1.jpg",
+  "license": "CC0",
+  "artist": "Perrot, Georges; Guillaume, Edmond; Delbet, Jules",
+  "page": "https://commons.wikimedia.org/wiki/File:Monumentum_Ancyranum_Res_Gestae_Divi_Augusti_Part_1.jpg"
+ },
+ "cicero": {
+  "file": "cicero.jpg",
+  "title": "File:Bust of Cicero (1st-cent. BC) - Palazzo Nuovo - Musei Capitolini - Rome 2016.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Jos\u00e9 Luiz",
+  "page": "https://commons.wikimedia.org/wiki/File:Bust_of_Cicero_(1st-cent._BC)_-_Palazzo_Nuovo_-_Musei_Capitolini_-_Rome_2016.jpg"
+ },
+ "p_lapis": {
+  "file": "p_lapis.jpg",
+  "title": "File:Lapis niger stele.JPG",
+  "license": "Public domain",
+  "artist": "unknown author, picture by Ursus",
+  "page": "https://commons.wikimedia.org/wiki/File:Lapis_niger_stele.JPG"
+ },
+ "p_carthage": {
+  "file": "p_carthage.jpg",
+  "title": "File:Carthage Byrsa - more Roman ruins, with modern Mosque in the background. (52763833251).jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Tracey Hind from Aups, France",
+  "page": "https://commons.wikimedia.org/wiki/File:Carthage_Byrsa_-_more_Roman_ruins,_with_modern_Mosque_in_the_background._(52763833251).jpg"
+ },
+ "p_palatine": {
+  "file": "p_palatine.jpg",
+  "title": "File:2017-03-23 On the Palatine Hill.jpg",
+  "license": "CC BY 2.0",
+  "artist": "BIG ALBERT",
+  "page": "https://commons.wikimedia.org/wiki/File:2017-03-23_On_the_Palatine_Hill.jpg"
+ }
+}

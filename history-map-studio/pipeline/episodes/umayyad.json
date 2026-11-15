@@ -1,0 +1,38 @@
+{
+ "title": "The Umayyad Caliphate, 661-750",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-2%",
+ "pitch": "-4Hz",
+ "lead_in": 0.4,
+ "tail": 4.5,
+ "text": "Damascus, 661. After years of civil war, Muawiya ibn Abi Sufyan became caliph, and the capital of Islam moved to Syria. His family, the Umayyads, would rule for ninety years. Under Abd al-Malik, Arabic became the language of the state, and the Dome of the Rock rose over Jerusalem. Then came the great expansion. In 711, Tariq ibn Ziyad crossed into Spain, while Muhammad ibn Qasim reached the Indus. Within a generation, the caliphate stretched from the Atlantic to Central Asia, one of the largest empires the world had yet seen. But the conquests stalled, at Constantinople in 718, and at Tours in 732. Heavy taxes, tribal feuds, and the anger of non-Arab Muslims tore the empire apart. In 750, the black banners of the Abbasids met the last Umayyad caliph, Marwan the Second, on the Great Zab River. His army broke. Marwan fled to Egypt, and was killed. Only one prince escaped. Abd al-Rahman crossed the sea, and rebuilt his dynasty in distant Cordoba.",
+ "say": {
+  "Muawiya": "Mu'aawiya",
+  "Abi": "Abee",
+  "Sufyan": "Soofyaan",
+  "Umayyads": "Oomayyads",
+  "Umayyad": "Oomayyad",
+  "Abd": "Abdul",
+  "al-Malik": "Maalik",
+  "al-Rahman": "Rahmaan",
+  "Tariq": "Taariq",
+  "Ziyad": "Ziyaad",
+  "Qasim": "Qaasim",
+  "Abbasids": "Abbaasids",
+  "Marwan": "Marwaan",
+  "Zab": "Zaab"
+ },
+ "ipa": {
+  "Muawiya": "/muˈʕaːwija/",
+  "Sufyan": "/sʊfˈjaːn/",
+  "Umayyad": "/ʊˈmaɪjæd/",
+  "Umayyads": "/ʊˈmaɪjædz/",
+  "Tariq": "/ˈtaːrɪq/",
+  "Ziyad": "/ziˈjaːd/",
+  "Qasim": "/ˈqaːsɪm/",
+  "Abbasids": "/əˈbaːsɪdz/",
+  "Marwan": "/marˈwaːn/",
+  "Zab": "/zaːb/"
+ },
+ "provider": "edge"
+}

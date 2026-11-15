@@ -1,0 +1,64 @@
+name: render
+on:
+  workflow_dispatch:
+    inputs:
+      slug: {default: 'rise_of_rome'}
+      n: {default: '16'}
+jobs:
+  prep:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install -q -r history-map-studio/pipeline/requirements-render.txt
+      - name: quality gate
+        working-directory: history-map-studio
+        run: python3 produce.py check ${{ inputs.slug }} | tail -3
+      - name: build atlases (once, shared by every part)
+        working-directory: history-map-studio/pipeline
+        run: |
+          /usr/bin/time -v python3 -c "import sys; sys.path.insert(0, '.'); import importlib; importlib.import_module('episodes.${{ inputs.slug }}'); print('atlases ok')" 2>&1 | grep -E "atlas|Maximum resident|Elapsed"
+          ls -la build/${{ inputs.slug }}
+          md5sum build/${{ inputs.slug }}/atlas*_0.png build/${{ inputs.slug }}/atlas*_land.png
+      - uses: actions/upload-artifact@v4
+        with:
+          name: build
+          path: history-map-studio/pipeline/build/${{ inputs.slug }}/atlas*.png
+          compression-level: 0
+          retention-days: 2
+          if-no-files-found: error
+  part:
+    needs: prep
+    runs-on: ubuntu-24.04
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      matrix: {i: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+      - run: pip install -q -r history-map-studio/pipeline/requirements-render.txt
+      - uses: actions/download-artifact@v4
+        with:
+          name: build
+          path: history-map-studio/pipeline/build/${{ inputs.slug }}
+      - name: render part
+        working-directory: history-map-studio
+        env: {ATLAS_LRU: '6'}
+        run: |
+          ls build 2>/dev/null; ls pipeline/build/${{ inputs.slug }} | wc -l
+          python3 produce.py part ${{ inputs.slug }} ${{ matrix.i }}/${{ inputs.n }} 2>&1 | tee /tmp/part.log | grep -vE "^worker [0-9]+: frame [0-9]*[1-9][0-9]{3}/" || true
+          if grep -q "atlas: paper" /tmp/part.log; then echo "::error::part rebuilt an atlas (prep artifact mismatch)"; exit 1; fi
+          grep -q "video ok" /tmp/part.log
+          ffprobe -v error -show_entries stream=codec_name,width,height,nb_frames,r_frame_rate -of compact pipeline/build/${{ inputs.slug }}/part_${{ matrix.i }}.mp4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: part_${{ matrix.i }}
+          path: history-map-studio/pipeline/build/${{ inputs.slug }}/part_${{ matrix.i }}.mp4
+          compression-level: 0
+          retention-days: 3
+          if-no-files-found: error

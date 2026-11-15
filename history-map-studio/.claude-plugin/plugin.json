@@ -1,0 +1,10 @@
+{
+  "name": "history-map-studio",
+  "version": "2.1.0",
+  "description": "Animated-map military history documentaries (illustrated atlas, medallions, tactical close-ups, continuous narration, SFX and music) written as a data storyboard and rendered locally with Python + ffmpeg (era map styles, auto close-ups, auto SFX, QA gate).",
+  "author": {
+    "name": "History Map Studio"
+  },
+  "skills": "./skills",
+  "commands": "./commands"
+}

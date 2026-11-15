@@ -1,0 +1,27 @@
+{
+ "title": "Ottomans vs Safavids | Battle of Chaldiran (1514)",
+ "description": "How a single afternoon of cannon fire in 1514 drew the border between Turkey and Iran.",
+ "voice": "en-GB-RyanNeural",
+ "rate": "-2%",
+ "pitch": "-4Hz",
+ "lead_in": 2.1,
+ "tail": 5.0,
+ "target_minutes": 1,
+ "target_words": 140,
+ "text": "Chaldiran, August 1514. On a high plain in north-western Iran, two empires prepare to collide. Sultan Selim of the Ottomans brings cannon and Janissary musketeers. Shah Ismail brings the Qizilbash, horsemen who believe their Shah cannot lose. Chapter one. The challenge. In 1501 Ismail was crowned Shah in Tabriz, aged just fourteen. Within ten years his armies had taken all of Iran, and his preachers were winning over the tribes of Ottoman Anatolia. Selim answered by crushing the rebels and marching east with perhaps sixty thousand men. Chapter two. The battle. On the twenty third of August, the Qizilbash charged. Selim had chained his guns together behind a wall of wagons. The cannon broke the charge, and the Shah himself was wounded. Two weeks later, Selim entered Tabriz. The Ottomans soon withdrew, but the border drawn here would divide Turkey and Iran for centuries.",
+ "say": {
+  "Chaldiran": "Chaaldiraan",
+  "Qizilbash": "Kizilbash",
+  "Ismail": "Ismaa-eel",
+  "Tabriz": "Tabreez",
+  "Selim": "Seleem"
+ },
+ "ipa": {},
+ "sources": [
+  "Encyclopaedia Iranica, 'Čālderān, Battle of'",
+  "Roger Savory, Iran under the Safavids (1980)",
+  "Caroline Finkel, Osman's Dream (2005)"
+ ],
+ "sting_after": "their Shah cannot lose",
+ "sting_gap": 3.2
+}

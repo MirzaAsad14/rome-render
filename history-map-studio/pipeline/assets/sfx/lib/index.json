@@ -1,0 +1,944 @@
+[
+{
+"name": "lib/horn_01",
+"category": "horn",
+"original": "Dramatic Horn Transition 01.wav",
+"dur": 5.64
+},
+{
+"name": "lib/horn_02",
+"category": "horn",
+"original": "Dramatic Horn Transition 02.wav",
+"dur": 5.54
+},
+{
+"name": "lib/horn_03",
+"category": "horn",
+"original": "Dramatic Horn Transition 03.wav",
+"dur": 5.59
+},
+{
+"name": "lib/horn_04",
+"category": "horn",
+"original": "Dramatic Horn Transition 04.wav",
+"dur": 5.62
+},
+{
+"name": "lib/horn_05",
+"category": "horn",
+"original": "Dramatic Horn Transition 05.wav",
+"dur": 5.77
+},
+{
+"name": "lib/impact_01",
+"category": "impact",
+"original": "Epic Cinematic Trailer Impact - 01.wav",
+"dur": 5.25
+},
+{
+"name": "lib/impact_02",
+"category": "impact",
+"original": "Epic Cinematic Trailer Impact - 02.wav",
+"dur": 5.77
+},
+{
+"name": "lib/impact_03",
+"category": "impact",
+"original": "Epic Cinematic Trailer Impact - 03.wav",
+"dur": 4.96
+},
+{
+"name": "lib/impact_04",
+"category": "impact",
+"original": "Epic Cinematic Trailer Impact - 04.wav",
+"dur": 7.16
+},
+{
+"name": "lib/impact_05",
+"category": "impact",
+"original": "Epic Cinematic Trailer Impact - 05.wav",
+"dur": 6.61
+},
+{
+"name": "lib/subdrop_01",
+"category": "subdrop",
+"original": "Cinematic Sub Drop - 01.wav",
+"dur": 3.79
+},
+{
+"name": "lib/subdrop_02",
+"category": "subdrop",
+"original": "Cinematic Sub Drop - 02.wav",
+"dur": 3.42
+},
+{
+"name": "lib/subdrop_03",
+"category": "subdrop",
+"original": "Cinematic Sub Drop - 03.wav",
+"dur": 3.55
+},
+{
+"name": "lib/subdrop_04",
+"category": "subdrop",
+"original": "Cinematic Sub Drop - 04.wav",
+"dur": 3.08
+},
+{
+"name": "lib/subdrop_05",
+"category": "subdrop",
+"original": "Cinematic Sub Drop - 05.wav",
+"dur": 3.32
+},
+{
+"name": "lib/subdrop_low_01",
+"category": "subdrop_low",
+"original": "SD_Low_01.wav",
+"dur": 8.05
+},
+{
+"name": "lib/subdrop_low_02",
+"category": "subdrop_low",
+"original": "SD_Low_02.wav",
+"dur": 8.05
+},
+{
+"name": "lib/subdrop_low_03",
+"category": "subdrop_low",
+"original": "SD_Low_03.wav",
+"dur": 8.05
+},
+{
+"name": "lib/subdrop_low_04",
+"category": "subdrop_low",
+"original": "SD_Low_04.wav",
+"dur": 8.05
+},
+{
+"name": "lib/subdrop_low_05",
+"category": "subdrop_low",
+"original": "SD_Low_05.wav",
+"dur": 8.05
+},
+{
+"name": "lib/subdrop_low_06",
+"category": "subdrop_low",
+"original": "SD_Low_06.wav",
+"dur": 8.05
+},
+{
+"name": "lib/subdrop_low_07",
+"category": "subdrop_low",
+"original": "SD_Low_07.wav",
+"dur": 8.05
+},
+{
+"name": "lib/subdrop_low_08",
+"category": "subdrop_low",
+"original": "SD_Low_08.wav",
+"dur": 8.05
+},
+{
+"name": "lib/subdrop_low_09",
+"category": "subdrop_low",
+"original": "SD_Low_09.wav",
+"dur": 8.05
+},
+{
+"name": "lib/subdrop_low_10",
+"category": "subdrop_low",
+"original": "SD_Low_10.wav",
+"dur": 8.05
+},
+{
+"name": "lib/whoosh_a_01",
+"category": "whoosh_a",
+"original": "01.wav",
+"dur": 2.74
+},
+{
+"name": "lib/whoosh_a_02",
+"category": "whoosh_a",
+"original": "02.wav",
+"dur": 2.77
+},
+{
+"name": "lib/whoosh_a_03",
+"category": "whoosh_a",
+"original": "03.wav",
+"dur": 2.22
+},
+{
+"name": "lib/whoosh_a_04",
+"category": "whoosh_a",
+"original": "04.wav",
+"dur": 1.41
+},
+{
+"name": "lib/whoosh_a_05",
+"category": "whoosh_a",
+"original": "05.wav",
+"dur": 1.78
+},
+{
+"name": "lib/whoosh_a_06",
+"category": "whoosh_a",
+"original": "06.wav",
+"dur": 3.24
+},
+{
+"name": "lib/whoosh_a_07",
+"category": "whoosh_a",
+"original": "07.wav",
+"dur": 2.51
+},
+{
+"name": "lib/whoosh_a_08",
+"category": "whoosh_a",
+"original": "08.wav",
+"dur": 2.82
+},
+{
+"name": "lib/whoosh_a_09",
+"category": "whoosh_a",
+"original": "09.wav",
+"dur": 3.19
+},
+{
+"name": "lib/whoosh_a_10",
+"category": "whoosh_a",
+"original": "10.wav",
+"dur": 2.43
+},
+{
+"name": "lib/whoosh_b_01",
+"category": "whoosh_b",
+"original": "Cinematic Whoosh 01.wav",
+"dur": 2.4
+},
+{
+"name": "lib/whoosh_b_02",
+"category": "whoosh_b",
+"original": "Cinematic Whoosh 02.wav",
+"dur": 2.27
+},
+{
+"name": "lib/whoosh_b_03",
+"category": "whoosh_b",
+"original": "Cinematic Whoosh 03.wav",
+"dur": 3.03
+},
+{
+"name": "lib/whoosh_b_04",
+"category": "whoosh_b",
+"original": "Cinematic Whoosh 04.wav",
+"dur": 1.78
+},
+{
+"name": "lib/whoosh_b_05",
+"category": "whoosh_b",
+"original": "Cinematic Whoosh 05.wav",
+"dur": 3.03
+},
+{
+"name": "lib/whoosh_b_06",
+"category": "whoosh_b",
+"original": "Cinematic Whoosh 06.wav",
+"dur": 2.14
+},
+{
+"name": "lib/whoosh_b_07",
+"category": "whoosh_b",
+"original": "Cinematic Whoosh 07.wav",
+"dur": 3.03
+},
+{
+"name": "lib/whoosh_b_08",
+"category": "whoosh_b",
+"original": "Cinematic Whoosh 08.wav",
+"dur": 2.38
+},
+{
+"name": "lib/whoosh_b_09",
+"category": "whoosh_b",
+"original": "Cinematic Whoosh 09.wav",
+"dur": 4.13
+},
+{
+"name": "lib/whoosh_b_10",
+"category": "whoosh_b",
+"original": "Cinematic Whoosh 10.wav",
+"dur": 2.4
+},
+{
+"name": "lib/whoosh_c_01",
+"category": "whoosh_c",
+"original": "01.wav",
+"dur": 4.13
+},
+{
+"name": "lib/whoosh_c_02",
+"category": "whoosh_c",
+"original": "02.wav",
+"dur": 2.66
+},
+{
+"name": "lib/whoosh_c_03",
+"category": "whoosh_c",
+"original": "03.wav",
+"dur": 3.63
+},
+{
+"name": "lib/whoosh_c_04",
+"category": "whoosh_c",
+"original": "04.wav",
+"dur": 3.37
+},
+{
+"name": "lib/whoosh_c_05",
+"category": "whoosh_c",
+"original": "05.wav",
+"dur": 3.37
+},
+{
+"name": "lib/whoosh_c_06",
+"category": "whoosh_c",
+"original": "06.wav",
+"dur": 2.95
+},
+{
+"name": "lib/whoosh_c_07",
+"category": "whoosh_c",
+"original": "07.wav",
+"dur": 3.45
+},
+{
+"name": "lib/whoosh_c_08",
+"category": "whoosh_c",
+"original": "08.wav",
+"dur": 2.74
+},
+{
+"name": "lib/whoosh_c_09",
+"category": "whoosh_c",
+"original": "09.wav",
+"dur": 1.62
+},
+{
+"name": "lib/whoosh_c_10",
+"category": "whoosh_c",
+"original": "10.wav",
+"dur": 2.87
+},
+{
+"name": "lib/hit_01",
+"category": "hit",
+"original": "Continue hit.wav",
+"dur": 2.04
+},
+{
+"name": "lib/hit_02",
+"category": "hit",
+"original": "Deep hit.wav",
+"dur": 10.55
+},
+{
+"name": "lib/hit_03",
+"category": "hit",
+"original": "Deep intense hit two.wav",
+"dur": 4.05
+},
+{
+"name": "lib/hit_04",
+"category": "hit",
+"original": "Deep intense hit.wav",
+"dur": 8.05
+},
+{
+"name": "lib/hit_05",
+"category": "hit",
+"original": "Deep solid hit.wav",
+"dur": 3.11
+},
+{
+"name": "lib/hit_06",
+"category": "hit",
+"original": "Deep solid two.wav",
+"dur": 4.05
+},
+{
+"name": "lib/hit_07",
+"category": "hit",
+"original": "Deep whoosh hit.wav",
+"dur": 8.05
+},
+{
+"name": "lib/hit_08",
+"category": "hit",
+"original": "Different.wav",
+"dur": 12.04
+},
+{
+"name": "lib/hit_09",
+"category": "hit",
+"original": "Gleam hit.wav",
+"dur": 7.55
+},
+{
+"name": "lib/hit_10",
+"category": "hit",
+"original": "Hit.wav",
+"dur": 2.04
+},
+{
+"name": "lib/hit_11",
+"category": "hit",
+"original": "Intense hit three.wav",
+"dur": 8.05
+},
+{
+"name": "lib/hit_12",
+"category": "hit",
+"original": "Intense hit two.wav",
+"dur": 4.05
+},
+{
+"name": "lib/hit_13",
+"category": "hit",
+"original": "Intense hit.wav",
+"dur": 8.05
+},
+{
+"name": "lib/hit_14",
+"category": "hit",
+"original": "Intense solid.wav",
+"dur": 4.05
+},
+{
+"name": "lib/hit_15",
+"category": "hit",
+"original": "It's over.wav",
+"dur": 7.55
+},
+{
+"name": "lib/hit_16",
+"category": "hit",
+"original": "It's raining hit.wav",
+"dur": 12.04
+},
+{
+"name": "lib/hit_17",
+"category": "hit",
+"original": "It's time.wav",
+"dur": 4.05
+},
+{
+"name": "lib/hit_18",
+"category": "hit",
+"original": "Pause hit.wav",
+"dur": 2.04
+},
+{
+"name": "lib/hit_19",
+"category": "hit",
+"original": "Repeat this hit.wav",
+"dur": 4.05
+},
+{
+"name": "lib/hit_20",
+"category": "hit",
+"original": "Solid hit four.wav",
+"dur": 4.05
+},
+{
+"name": "lib/hit_21",
+"category": "hit",
+"original": "Solid hit one.wav",
+"dur": 2.04
+},
+{
+"name": "lib/hit_22",
+"category": "hit",
+"original": "Solid hit three.wav",
+"dur": 4.05
+},
+{
+"name": "lib/hit_23",
+"category": "hit",
+"original": "Solid hit two.wav",
+"dur": 2.04
+},
+{
+"name": "lib/hit_24",
+"category": "hit",
+"original": "Stand off.wav",
+"dur": 8.05
+},
+{
+"name": "lib/hit_25",
+"category": "hit",
+"original": "Thunder.wav",
+"dur": 4.05
+},
+{
+"name": "lib/hit_26",
+"category": "hit",
+"original": "Water hit.wav",
+"dur": 4.05
+},
+{
+"name": "lib/hit_27",
+"category": "hit",
+"original": "Whoosh hit.wav",
+"dur": 4.05
+},
+{
+"name": "lib/hit_28",
+"category": "hit",
+"original": "low deep.wav",
+"dur": 12.04
+},
+{
+"name": "lib/fire_01",
+"category": "fire",
+"original": "FIRE 1.wav",
+"dur": 2.74
+},
+{
+"name": "lib/fire_02",
+"category": "fire",
+"original": "FIRE 2.wav",
+"dur": 5.46
+},
+{
+"name": "lib/fire_03",
+"category": "fire",
+"original": "FIRE 3.wav",
+"dur": 2.06
+},
+{
+"name": "lib/fire_04",
+"category": "fire",
+"original": "FIRE 4.wav",
+"dur": 8.18
+},
+{
+"name": "lib/fire_05",
+"category": "fire",
+"original": "FIRE 5.wav",
+"dur": 3.42
+},
+{
+"name": "lib/fire_06",
+"category": "fire",
+"original": "FIRE 6.wav",
+"dur": 2.06
+},
+{
+"name": "lib/fire_07",
+"category": "fire",
+"original": "FIRE 7.wav",
+"dur": 4.1
+},
+{
+"name": "lib/fire_08",
+"category": "fire",
+"original": "FIRE 8.wav",
+"dur": 3.42
+},
+{
+"name": "lib/fire_09",
+"category": "fire",
+"original": "FIRE 9.wav",
+"dur": 5.46
+},
+{
+"name": "lib/water_01",
+"category": "water",
+"original": "WATER 1.wav",
+"dur": 5.46
+},
+{
+"name": "lib/water_02",
+"category": "water",
+"original": "WATER 2.wav",
+"dur": 2.74
+},
+{
+"name": "lib/water_03",
+"category": "water",
+"original": "WATER 3.wav",
+"dur": 5.46
+},
+{
+"name": "lib/water_04",
+"category": "water",
+"original": "WATER 4.wav",
+"dur": 2.74
+},
+{
+"name": "lib/water_05",
+"category": "water",
+"original": "WATER 5.wav",
+"dur": 5.46
+},
+{
+"name": "lib/water_06",
+"category": "water",
+"original": "WATER 6.wav",
+"dur": 2.06
+},
+{
+"name": "lib/bell_01",
+"category": "bell",
+"original": "Bells 01.wav",
+"dur": 2.35
+},
+{
+"name": "lib/bell_02",
+"category": "bell",
+"original": "Bells 02.wav",
+"dur": 2.35
+},
+{
+"name": "lib/bell_03",
+"category": "bell",
+"original": "Bells 03.wav",
+"dur": 2.35
+},
+{
+"name": "lib/bell_04",
+"category": "bell",
+"original": "Bells 04.wav",
+"dur": 2.35
+},
+{
+"name": "lib/bell_05",
+"category": "bell",
+"original": "Bells 05.wav",
+"dur": 2.4
+},
+{
+"name": "lib/tension_01",
+"category": "tension",
+"original": "alesiadavina-horror-sound-lurking-horror-monster-189948.mp3",
+"dur": 12.04
+},
+{
+"name": "lib/tension_02",
+"category": "tension",
+"original": "bryansantosbreton-critical-tension-cinematic-braam-impact-184273.mp3",
+"dur": 6.48
+},
+{
+"name": "lib/tension_03",
+"category": "tension",
+"original": "freesound_community-tension-build-6035.mp3",
+"dur": 12.02
+},
+{
+"name": "lib/tension_04",
+"category": "tension",
+"original": "gd_salman-tension-stinger-ambience-355381.mp3",
+"dur": 7.9
+},
+{
+"name": "lib/tension_05",
+"category": "tension",
+"original": "jusatti890-scream-horror-sfx-490908.mp3",
+"dur": 12.02
+},
+{
+"name": "lib/tension_06",
+"category": "tension",
+"original": "jusatti890-scream-horror-sfx-490909.mp3",
+"dur": 12.02
+},
+{
+"name": "lib/tension_07",
+"category": "tension",
+"original": "jusatti890-scream-horror-sfx-490916.mp3",
+"dur": 12.02
+},
+{
+"name": "lib/tension_08",
+"category": "tension",
+"original": "preshkeyzmusic-tension-effects-297613.mp3",
+"dur": 12.02
+},
+{
+"name": "lib/tension_09",
+"category": "tension",
+"original": "sounds_ykt-time-freeze-tension-327055.mp3",
+"dur": 3.5
+},
+{
+"name": "lib/tension_10",
+"category": "tension",
+"original": "the-vampires-monster-horror-orchestra-warning-338415.mp3",
+"dur": 4.06
+},
+{
+"name": "lib/tension_11",
+"category": "tension",
+"original": "thefealdoproject-tension-booster-01-250483.mp3",
+"dur": 12.02
+},
+{
+"name": "lib/tension_12",
+"category": "tension",
+"original": "u_mx4xkr2bzy-slow-cinematic-clock-ticking-tension-323080.mp3",
+"dur": 8.12
+},
+{
+"name": "lib/tension_13",
+"category": "tension",
+"original": "universfield-creepy-tension-background-30-352872.mp3",
+"dur": 12.02
+},
+{
+"name": "lib/tension_14",
+"category": "tension",
+"original": "universfield-scary-string-tension-454849.mp3",
+"dur": 3.71
+},
+{
+"name": "lib/tension_15",
+"category": "tension",
+"original": "universfield-tense-paranormal-horror-15s-498138.mp3",
+"dur": 12.04
+},
+{
+"name": "lib/wind_riser_01",
+"category": "wind_riser",
+"original": "Into the clouds.wav",
+"dur": 10.45
+},
+{
+"name": "lib/wind_riser_02",
+"category": "wind_riser",
+"original": "We waited.wav",
+"dur": 10.45
+},
+{
+"name": "lib/wind_riser_03",
+"category": "wind_riser",
+"original": "Wind riser.wav",
+"dur": 8.33
+},
+{
+"name": "lib/riser_01",
+"category": "riser",
+"original": "Again.wav",
+"dur": 5.25
+},
+{
+"name": "lib/riser_02",
+"category": "riser",
+"original": "Birds take off.wav",
+"dur": 3.94
+},
+{
+"name": "lib/riser_03",
+"category": "riser",
+"original": "Deep riser two.wav",
+"dur": 5.25
+},
+{
+"name": "lib/riser_04",
+"category": "riser",
+"original": "Deep riser.wav",
+"dur": 5.25
+},
+{
+"name": "lib/riser_05",
+"category": "riser",
+"original": "Deep rumble.wav",
+"dur": 6.97
+},
+{
+"name": "lib/riser_06",
+"category": "riser",
+"original": "Distructive.wav",
+"dur": 10.45
+},
+{
+"name": "lib/riser_07",
+"category": "riser",
+"original": "Fast two.wav",
+"dur": 2.64
+},
+{
+"name": "lib/riser_08",
+"category": "riser",
+"original": "Fast.wav",
+"dur": 5.25
+},
+{
+"name": "lib/riser_09",
+"category": "riser",
+"original": "High tone.wav",
+"dur": 5.25
+},
+{
+"name": "lib/riser_10",
+"category": "riser",
+"original": "Intense two.wav",
+"dur": 5.25
+},
+{
+"name": "lib/riser_11",
+"category": "riser",
+"original": "Intense.wav",
+"dur": 5.25
+},
+{
+"name": "lib/riser_12",
+"category": "riser",
+"original": "Into slowmo.wav",
+"dur": 7.86
+},
+{
+"name": "lib/riser_13",
+"category": "riser",
+"original": "It is coming too.wav",
+"dur": 10.45
+},
+{
+"name": "lib/riser_14",
+"category": "riser",
+"original": "It is coming.wav",
+"dur": 7.86
+},
+{
+"name": "lib/riser_15",
+"category": "riser",
+"original": "Riser.wav",
+"dur": 5.25
+},
+{
+"name": "lib/riser_16",
+"category": "riser",
+"original": "The wind.wav",
+"dur": 2.64
+},
+{
+"name": "lib/riser_17",
+"category": "riser",
+"original": "Under water.wav",
+"dur": 7.86
+},
+{
+"name": "lib/riser_18",
+"category": "riser",
+"original": "Unstoppable.wav",
+"dur": 5.25
+},
+{
+"name": "lib/riser_19",
+"category": "riser",
+"original": "We are beautiful.wav",
+"dur": 12.04
+},
+{
+"name": "lib/riser_20",
+"category": "riser",
+"original": "stop time.wav",
+"dur": 3.94
+},
+{
+"name": "lib/swish_01",
+"category": "swish",
+"original": "Delay woosh.wav",
+"dur": 3.14
+},
+{
+"name": "lib/swish_02",
+"category": "swish",
+"original": "Fast swish.wav",
+"dur": 0.6
+},
+{
+"name": "lib/swish_03",
+"category": "swish",
+"original": "Fast zing.wav",
+"dur": 2.11
+},
+{
+"name": "lib/swish_04",
+"category": "swish",
+"original": "Flame pass.wav",
+"dur": 5.38
+},
+{
+"name": "lib/swish_05",
+"category": "swish",
+"original": "Future swoosh.wav",
+"dur": 3.82
+},
+{
+"name": "lib/swish_06",
+"category": "swish",
+"original": "Future zing.wav",
+"dur": 8.9
+},
+{
+"name": "lib/swish_07",
+"category": "swish",
+"original": "Golden swoosh.wav",
+"dur": 1.27
+},
+{
+"name": "lib/swish_08",
+"category": "swish",
+"original": "High fast swoosh.wav",
+"dur": 0.6
+},
+{
+"name": "lib/swish_09",
+"category": "swish",
+"original": "Low fly.wav",
+"dur": 1.58
+},
+{
+"name": "lib/swish_10",
+"category": "swish",
+"original": "Reverse riser 01.wav",
+"dur": 5.18
+},
+{
+"name": "lib/swish_11",
+"category": "swish",
+"original": "Rumble swish.wav",
+"dur": 3.86
+},
+{
+"name": "lib/swish_12",
+"category": "swish",
+"original": "Sharp swoosh.wav",
+"dur": 0.6
+},
+{
+"name": "lib/swish_13",
+"category": "swish",
+"original": "Short whip.wav",
+"dur": 1.06
+},
+{
+"name": "lib/swish_14",
+"category": "swish",
+"original": "Space ship fly by.wav",
+"dur": 1.06
+},
+{
+"name": "lib/swish_15",
+"category": "swish",
+"original": "Windy swish.wav",
+"dur": 2.78
+},
+{
+"name": "lib/swish_16",
+"category": "swish",
+"original": "Woosh rattle.wav",
+"dur": 3.14
+}
+]
